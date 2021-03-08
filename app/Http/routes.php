@@ -19,3 +19,5 @@ Route::get('/', function () {
  * Event Route
  */
 Route::get('event/list', 'EventController@list')->name('event.list');
+Route::get('event/cari', 'EventController@cari')->name('event.cari');
+Route::get('event/{id}', 'EventController@detail')->name('event.cari');

@@ -19,6 +19,7 @@ class CreateEventsTable extends Migration
             $table->integer('kuota');
             $table->date('tanggal');
             $table->string('tempat');
+            $table->string('url_gambar');
             $table->integer('kategori_id')->unsigned();
             $table->foreign('kategori_id', 'fk_kategori_event')
                     ->references('id')->on('kategori')

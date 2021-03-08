@@ -22,7 +22,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-        <div class="container">    
+        <div class="container d-flex justify-content-around">    
             <a class="navbar-brand" href="#">Himti Q</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,10 +33,6 @@
                 <a class="nav-item nav-link" href="#">Features</a>
                 <a class="nav-item nav-link" href="#">Pricing</a>
                 <a class="nav-item nav-link disabled" href="#">Disabled</a>
-            </div>
-            <div class="navbar-nav mr-auto">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Features</a>
             </div>
             </div>
         </div>

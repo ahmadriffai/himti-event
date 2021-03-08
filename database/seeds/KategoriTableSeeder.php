@@ -13,6 +13,8 @@ class KategoriTableSeeder extends Seeder
     {
         //
         $kategori = DB::table('kategori');
+        $kategori->truncate();
+
         $kategori->insert(['kategori' => 'WorkShop']);
         $kategori->insert(['kategori' => 'Seminar Nasional']);
         $kategori->insert(['kategori' => 'Seminar KP']);
